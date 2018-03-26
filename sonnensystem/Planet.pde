@@ -17,7 +17,7 @@ class Planet {
   // Konstruktor für Planeten mit Abstand, Größe, Winkelgeschwindigkeit
   Planet(float dist, float rad, float umlz, float eigrot, String name) {
     this.d = dist;
-    this.r = log(rad*10);
+    this.r = log(rad*erdrad*10);
     this.umlz = umlz;
     this.eigrot = eigrot;
     this.name = name;
