@@ -21,7 +21,8 @@ void setup() {
 }
 
 void draw() {
-    au = map(mouseY, 0, height, 2500, 100);
+  // Abstand der Planeten ist Mausabhängig
+  au = map(mouseY, 0, height, 2500, 100);
 
   // Hintergrund schwarz
   background(0);
