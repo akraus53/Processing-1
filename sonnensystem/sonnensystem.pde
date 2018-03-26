@@ -1,7 +1,8 @@
 Planet[] planeten = new Planet[9];
 
-final float au = 150;    // Astronomical Unit, final bedeutet es kann nach Programmstart nicht mehr geändert werden
-final float erdrad = 5; // Radius der Erde
+final float au = 700;    // Astronomical Unit, final bedeutet es kann nach Programmstart nicht mehr geändert werden
+final float erdrad = 30; // Radius der Erde
+PImage bg;
 
 void setup() {
   fullScreen(P3D);
@@ -21,7 +22,10 @@ void setup() {
 
 void draw() {
   // Hintergrund schwarz
+  background(0);
+  
   // Zentrum in die Mitte und etwas weiter weg bewegen
+  translate(width/2, height/2, -au);
 
   // Zeichne alle Planeten
   for (Planet p : planeten) {
