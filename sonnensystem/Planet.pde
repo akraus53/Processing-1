@@ -33,6 +33,20 @@ class Planet {
   void show() {
     pushMatrix();
 
+    //noFill();
+    stroke(255);
+    //strokeWeight(20);
+
+    for (int i = 0; i < 360; i++) {
+      pushMatrix();
+      rotateX(radians(-20));
+
+      rotateY(radians(i));
+      translate(this.d*au, 0);
+      point(0, 0, 0);
+      popMatrix();
+    }
+
     // leichte Aufsicht auf das Sonnensystem
     rotateX(radians(-20));
 
@@ -52,6 +66,7 @@ class Planet {
     rotateY(-this.momDrehung-this.momRot);
     text(this.name, 0, -(this.r*erdrad)-20);
     
+
     // Alle Verschiebungen und Verdrehungen rückgängig machen 
     popMatrix();
 
