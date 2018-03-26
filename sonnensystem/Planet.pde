@@ -30,7 +30,8 @@ class Planet {
     // leichte Aufsicht auf das Sonnensystem
     // Drehung um die Sonne
     // Wegbewegen um den Abstand
-    translate(d*au, 0);
+    translate(this.d*au, 0);
+
     // Drehung um die eigene Achse
     
     // Zeichnen der Shape
