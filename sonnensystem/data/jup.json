@@ -1,0 +1,561 @@
+[{
+  "children": [
+ {
+   "name": "Metis",
+   "radius": 0.008333333333333333,
+   "dist": 0.5044693093308776,
+   "umlaufzeit": 0.2916666666666667,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Adrastea",
+   "radius": 0.003,
+   "dist": 0.5045043105786722,
+   "umlaufzeit": 0.2916666666666667,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Amalthea",
+   "radius": 0.02666666666666667,
+   "dist": 0.5063480363074944,
+   "umlaufzeit": 0.5,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Thebe",
+   "radius": 0.016666666666666666,
+   "dist": 0.5077663918718702,
+   "umlaufzeit": 0.6666666666666666,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Io",
+   "radius": 0.61,
+   "dist": 0.5147600261949339,
+   "umlaufzeit": 0.7083333333333334,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Europa",
+   "radius": 0.5201666666666667,
+   "dist": 0.5234870273125237,
+   "umlaufzeit": 3.5,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Ganymede",
+   "radius": 0.877,
+   "dist": 0.5374657556541891,
+   "umlaufzeit": 7.15,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Callisto",
+   "radius": 0.8033333333333333,
+   "dist": 0.5658971642339049,
+   "umlaufzeit": 16,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Themisto",
+   "radius": 0.0013333333333333333,
+   "dist": 0.7587717852141429,
+   "umlaufzeit": 129.87,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Leda",
+   "radius": 0.0026666666666666666,
+   "dist": 0.8915862950514186,
+   "umlaufzeit": 240.82,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Himalia",
+   "radius": 0.028333333333333332,
+   "dist": 0.9008332747062433,
+   "umlaufzeit": 250.23,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Lysithea",
+   "radius": 0.006,
+   "dist": 0.9109342498060056,
+   "umlaufzeit": 259.89,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Elara",
+   "radius": 0.014333333333333333,
+   "dist": 0.912245886565856,
+   "umlaufzeit": 257.62,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Dia",
+   "radius": 0.0006666666666666666,
+   "dist": 0.9399805253057272,
+   "umlaufzeit": 287.93,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Carpo",
+   "radius": 0.0005,
+   "dist": 1.100091948277956,
+   "umlaufzeit": 458.62,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "S/2003 J 12",
+   "radius": 0.00016666666666666666,
+   "dist": 1.1209060002989106,
+   "umlaufzeit": -482.69,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Euporie",
+   "radius": 0.0003333333333333333,
+   "dist": 1.168119008442651,
+   "umlaufzeit": -538.78,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "S/2003 J 3",
+   "radius": 0.0003333333333333333,
+   "dist": 1.1867867839488477,
+   "umlaufzeit": -561.52,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "S/2011 J 1",
+   "radius": 0.00016666666666666666,
+   "dist": 1.2054602996596828,
+   "umlaufzeit": -582.22,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "S/2003 J 18",
+   "radius": 0.0003333333333333333,
+   "dist": 1.2077129099652404,
+   "umlaufzeit": -587.38,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "S/2010 J 2",
+   "radius": 0.00016666666666666666,
+   "dist": 1.2107755891497531,
+   "umlaufzeit": -588.36,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Thelxinoe",
+   "radius": 0.0003333333333333333,
+   "dist": 1.215906877080168,
+   "umlaufzeit": -597.61,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Euanthe",
+   "radius": 0.0005,
+   "dist": 1.2162954259319345,
+   "umlaufzeit": -598.09,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Helike",
+   "radius": 0.0006666666666666666,
+   "dist": 1.218934940030612,
+   "umlaufzeit": -601.4,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Orthosie",
+   "radius": 0.0003333333333333333,
+   "dist": 1.2199046496007582,
+   "umlaufzeit": -602.62,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "S/2016 J 1",
+   "radius": 0.0005,
+   "dist": 1.22086760393008,
+   "umlaufzeit": -603.83,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Iocaste",
+   "radius": 0.0008333333333333334,
+   "dist": 1.2253156675035464,
+   "umlaufzeit": -609.43,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "S/2003 J 16",
+   "radius": 0.0003333333333333333,
+   "dist": 1.226058148973011,
+   "umlaufzeit": -610.36,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Praxidike",
+   "radius": 0.0011666666666666668,
+   "dist": 1.228864164007447,
+   "umlaufzeit": -613.9,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Harpalyke",
+   "radius": 0.0006666666666666666,
+   "dist": 1.2372597733109185,
+   "umlaufzeit": -624.54,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Mneme",
+   "radius": 0.0003333333333333333,
+   "dist": 1.2395688756304162,
+   "umlaufzeit": -627.48,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Hermippe",
+   "radius": 0.0006666666666666666,
+   "dist": 1.2413994408900677,
+   "umlaufzeit": -629.81,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Thyone",
+   "radius": 0.0006666666666666666,
+   "dist": 1.2492216597521701,
+   "umlaufzeit": -639.8,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Ananke",
+   "radius": 0.004666666666666667,
+   "dist": 1.2509500913707574,
+   "umlaufzeit": -640.38,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Herse",
+   "radius": 0.0003333333333333333,
+   "dist": 1.2747283290649312,
+   "umlaufzeit": -672.75,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Aitne",
+   "radius": 0.0005,
+   "dist": 1.2800084423009679,
+   "umlaufzeit": -679.64,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Kale",
+   "radius": 0.0003333333333333333,
+   "dist": 1.2843502070848825,
+   "umlaufzeit": -685.32,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Taygete",
+   "radius": 0.0008333333333333334,
+   "dist": 1.2853806788212,
+   "umlaufzeit": -686.67,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "S/2003 J 19",
+   "radius": 0.0003333333333333333,
+   "dist": 1.2948454712410498,
+   "umlaufzeit": -699.12,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Chaldene",
+   "radius": 0.0006666666666666666,
+   "dist": 1.294998881710133,
+   "umlaufzeit": -699.33,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "S/2003 J 15",
+   "radius": 0.0003333333333333333,
+   "dist": 1.2952633161372202,
+   "umlaufzeit": -699.68,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "S/2003 J 10",
+   "radius": 0.0003333333333333333,
+   "dist": 1.2956068183830753,
+   "umlaufzeit": -700.13,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "S/2003 J 23",
+   "radius": 0.0003333333333333333,
+   "dist": 1.2959162644148265,
+   "umlaufzeit": -700.54,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Erinome",
+   "radius": 0.0005,
+   "dist": 1.3045479921359195,
+   "umlaufzeit": -711.96,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Aoede",
+   "radius": 0.0006666666666666666,
+   "dist": 1.3065748793944505,
+   "umlaufzeit": -714.66,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Kallichore",
+   "radius": 0.0003333333333333333,
+   "dist": 1.3089426438052516,
+   "umlaufzeit": -717.81,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Kalyke",
+   "radius": 0.0008333333333333334,
+   "dist": 1.3113559798406813,
+   "umlaufzeit": -721.02,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Carme",
+   "radius": 0.007666666666666666,
+   "dist": 1.3119586663264546,
+   "umlaufzeit": -763.95,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Callirrhoe",
+   "radius": 0.0015,
+   "dist": 1.312553477531474,
+   "umlaufzeit": -727.11,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Eurydome",
+   "radius": 0.0005,
+   "dist": 1.3131090173364681,
+   "umlaufzeit": -723.36,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Pasithee",
+   "radius": 0.0003333333333333333,
+   "dist": 1.3157852127428344,
+   "umlaufzeit": -726.93,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "S/2010 J 1",
+   "radius": 0.0003333333333333333,
+   "dist": 1.3160308164986083,
+   "umlaufzeit": -722.83,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Kore",
+   "radius": 0.0003333333333333333,
+   "dist": 1.317107384878271,
+   "umlaufzeit": -776.02,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Cyllene",
+   "radius": 0.0003333333333333333,
+   "dist": 1.3188986087354015,
+   "umlaufzeit": -731.1,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "S/2011 J 2",
+   "radius": 0.00016666666666666666,
+   "dist": 1.319063534615009,
+   "umlaufzeit": -731.32,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Eukelade",
+   "radius": 0.0006666666666666666,
+   "dist": 1.3219585928238342,
+   "umlaufzeit": -735.2,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "S/2017 J 1",
+   "radius": 0.0003333333333333333,
+   "dist": 1.3219685331782078,
+   "umlaufzeit": -734.15,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "S/2003 J 4",
+   "radius": 0.0003333333333333333,
+   "dist": 1.3250070615017426,
+   "umlaufzeit": -739.29,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Pasiphae",
+   "radius": 0.01,
+   "dist": 1.3263459292323772,
+   "umlaufzeit": -739.8,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Hegemone",
+   "radius": 0.0005,
+   "dist": 1.3296174608624798,
+   "umlaufzeit": -745.5,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Arche",
+   "radius": 0.0005,
+   "dist": 1.3301263790054114,
+   "umlaufzeit": -746.19,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Isonoe",
+   "radius": 0.0006666666666666666,
+   "dist": 1.333052343316039,
+   "umlaufzeit": -750.13,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "S/2003 J 9",
+   "radius": 0.00016666666666666666,
+   "dist": 1.3350530496412198,
+   "umlaufzeit": -752.84,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "S/2003 J 5",
+   "radius": 0.0006666666666666666,
+   "dist": 1.3391173245326196,
+   "umlaufzeit": -758.34,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Sinope",
+   "radius": 0.006333333333333333,
+   "dist": 1.342055294271241,
+   "umlaufzeit": -739.33,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Sponde",
+   "radius": 0.0003333333333333333,
+   "dist": 1.3488722072941899,
+   "umlaufzeit": -771.6,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Autonoe",
+   "radius": 0.0006666666666666666,
+   "dist": 1.3492858520406252,
+   "umlaufzeit": -772.17,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "Megaclite",
+   "radius": 0.0008333333333333334,
+   "dist": 1.3640841696006463,
+   "umlaufzeit": -792.44,
+   "eigenrotation": 1,
+   "children": []
+ },
+ {
+   "name": "S/2003 J 2",
+   "radius": 0.0003333333333333333,
+   "dist": 1.5,
+   "umlaufzeit": -981.55,
+   "eigenrotation": 1,
+   "children": []
+ }
+],
+      "eigenrotation": 0.41999998688697815,
+      "umlaufzeit": 4307,
+      "name": "Jupiter",
+      "dist": 0,
+      "radius": 7.090076923370361
+    }]

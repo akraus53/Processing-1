@@ -7,7 +7,8 @@ class Planet {
   float umlz;       // Umlaufzeit um die Sonne in Tagen
   float eigrot;     // Rotationsgeschw. um die eigene Achse in Tagen
   PImage textur;    // Textur des Planeten
-  PVector m = new PVector(width/2, height/2); //#TODO: Implementieren!
+  ArrayList<Planet> children = new ArrayList<Planet>();
+
 
   // dynamische Eigenschaften:
   float momDrehung = 0;
@@ -21,9 +22,8 @@ class Planet {
     this.umlz = umlz;
     this.eigrot = eigrot;
     this.name = name;
-    this.textur =  loadImage(this.name + ".jpg");
-
-
+    
+      this.textur =  loadImage(this.name + ".jpg");
     // Einmaliges erstellen der Shape: 
     this.shape = createShape(SPHERE, this.r*erdrad);
     this.shape.setTexture(textur);
@@ -32,20 +32,19 @@ class Planet {
 
   void show() {
     pushMatrix();
-
     //noFill();
     stroke(255);
     //strokeWeight(20);
 
-    for (int i = 0; i < 360; i++) {
-      pushMatrix();
-      rotateX(radians(-20));
+    //    for (int i = 0; i < 360; i++) {
+    //      pushMatrix();
+    //      rotateX(radians(-20));
 
-      rotateY(radians(i));
-      translate(this.d*au, 0);
-      point(0, 0, 0);
-      popMatrix();
-    }
+    //      rotateY(radians(i));
+    //      translate(this.d*au, 0);
+    //      point(0, 0, 0);
+    //      popMatrix();
+    //    }
 
     // leichte Aufsicht auf das Sonnensystem
     rotateX(radians(-20));
@@ -58,20 +57,32 @@ class Planet {
 
     // Drehung um die eigene Achse
     rotateY(this.momRot);
-    
+
     // Zeichnen der Shape
     shape(this.shape);
 
     // Text: Zurückdrehen und schreiben
     rotateY(-this.momDrehung-this.momRot);
     text(this.name, 0, -(this.r*erdrad)-20);
-    
+
 
     // Alle Verschiebungen und Verdrehungen rückgängig machen 
+
+    for (Planet c : children) {
+      c.show();
+    }
+
     popMatrix();
 
+
+
     // Den Planet weiter um die Sonne und um sich selbst drehen
-    this.momDrehung += 1/this.umlz * 4;
-    this.momRot += 1/this.eigrot * 0.2;
+    this.momDrehung += 1/this.umlz * 4 * speed;
+    this.momRot += 1/this.eigrot * 0.2 * speed;
+  }
+
+  Planet addChild(Planet p) {
+    this.children.add(p);
+    return this;
   }
 }
